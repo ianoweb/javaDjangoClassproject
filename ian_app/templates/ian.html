@@ -1,0 +1,26 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IAN</title>
+</head>
+<body>
+ <nav>
+    <a href="{% url 'my_home' %}">Home</a>
+    <a href="{% url 'my_about' %}">About</a>
+    <a href="{% url 'my_contact' %}">Contact</a>
+    <a href="{% url 'my_blog' %}">Blog</a>
+    <a href="{% url 'my_services' %}">Services</a>
+    <a href="{% url 'my_ian' %}">Ian</a>
+    </nav><br>
+<img src="{% static 'images/download.png' %}" alt="">
+<h2>I am Ian Otieno a Full Stack web developer student with Emobilis. Feeling great to be learning the new skill. </h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus, qui? Alias aliquam, aliquid animi aperiam, eligendi fugit quaerat quasi repellendus rerum suscipit tempore tenetur vel vero? Commodi, dolorem, quam.</p>
+</body>
+</html>
